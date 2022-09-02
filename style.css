@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 1.4rem;
+    color: rgb(206, 0, 0);
+    margin-block: 50px;
+}
+
+.info {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.info .detail {
+    padding-inline: 2%;
+    padding-block: 10px;
+}
+
+#first-info {
+    background-color: #39b150;
+}
+
+#second-info {
+    background-color: #92d050;
+}
+
+#third-info {
+    background-color: #fac000;
+}
+
+#fourth-info {
+    background-color: #f51d03;
+}
+
+.container {
+    position: relative;
+    width: 95%;
+    min-height: 20px;
+    height: 50vh;
+    border: 2px solid grey;
+    border-right: none;
+    border-top: none;
+    margin-block-start: 100px;
+}
+
+.container .line {
+    position: absolute;
+    bottom: 10%;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    width: 99%;
+}
+
+.container :nth-child(2) {
+    position: absolute;
+    bottom: 100%;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    width: 99%;
+}
+
+.container .bar-container {
+    position: absolute;
+    bottom: 0;
+    /* left: 50px; */
+    height: 90%;
+}
+
+.bar-container .bar {
+    width: 15px;
+    height: 100%;
+    background-color: #f51d03;
+}
+
+.bar-container .wilaya-name {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin-top: 5px;
+}
