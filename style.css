@@ -42,7 +42,7 @@ body {
 
 .container {
     position: relative;
-    width: 95%;
+    width: 98%;
     min-height: 20px;
     height: 50vh;
     border: 2px solid grey;
@@ -55,10 +55,10 @@ body {
     position: absolute;
     bottom: 10%;
     border-bottom: 1px solid rgb(153, 153, 153);
-    width: 99%;
+    width: 95%;
 }
 
-.container :nth-child(2) {
+.container .csat {
     position: absolute;
     bottom: 100%;
     border-bottom: 1px solid rgb(153, 153, 153);
@@ -82,4 +82,7 @@ body {
     writing-mode: vertical-rl;
     text-orientation: mixed;
     margin-top: 5px;
+    width: max-content; display: block;
+    overflow: visible;
+    height: max-content;
 }
